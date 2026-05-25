@@ -10,7 +10,7 @@ import time
 # import os
 
 recognizer = sr.Recognizer()
-newsapi = "23b103d6d530432b85c21b93089187b3"
+newsapi = " "
 
 def speak(text):
     engine = pyttsx3.init()
@@ -44,7 +44,7 @@ def speak(text):
 
 def aiprocess(command):
     client = genai.Client(
-    api_key="AIzaSyD5VAHrYh-ocZ2UAGICYgGUwbxbbogbnlQ"
+    api_key=" "
     )
 
 # Generate response
